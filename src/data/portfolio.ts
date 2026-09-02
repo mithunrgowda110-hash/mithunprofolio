@@ -3,6 +3,8 @@
  * Nothing here is fabricated — placeholders stay until you fill them in.
  */
 
+import profilePhoto from "@/assets/profile.jpg.asset.json";
+
 export const profile = {
   name: "MITHUN C R",
   headline:
@@ -10,8 +12,8 @@ export const profile = {
   intro:
     "Combining the discipline of a national wrestler with the creativity of a technology enthusiast, I build applications, websites and innovative digital solutions.",
   tagline: "DISCIPLINE FROM THE MAT, CREATIVITY FROM TECHNOLOGY.",
-  /** Replace /images/profile.jpg with your passport-size photo (same filename). */
-  photo: "/images/profile.jpg",
+  /** Professional suited headshot (CDN-hosted). Replace the asset to change it. */
+  photo: profilePhoto.url,
   /** Put your PDF at public/resume.pdf to enable the download button. */
   resumeUrl: "/resume.pdf",
 };
