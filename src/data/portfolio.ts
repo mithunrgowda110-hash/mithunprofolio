@@ -111,6 +111,32 @@ export type Certificate = {
  */
 export const certificates: Certificate[] = [];
 
+export type Hackathon = {
+  name: string;
+  date: string;
+  mode: string;
+  description: string;
+  project?: string;
+  result?: string;
+};
+
+/** EDITABLE: add hackathons you participated in with name, date and details. */
+export const hackathons: Hackathon[] = [
+  {
+    name: "[Add hackathon name]",
+    date: "[Add date]",
+    mode: "[Online / Offline / Hybrid]",
+    description: "[Add a short description of what you built or learned]",
+    result: "[Add result, e.g. Participant / Finalist / Winner]",
+  },
+  {
+    name: "[Add hackathon name]",
+    date: "[Add date]",
+    mode: "[Online / Offline / Hybrid]",
+    description: "[Add a short description of what you built or learned]",
+  },
+];
+
 export type Project = {
   title: string;
   description: string;
