@@ -19,10 +19,10 @@ export const profile = {
 };
 
 export const contact = {
-  email: "[ADD MY EMAIL]",
+  email: "mithunrgowda110@gmail.com",
   linkedin: "[ADD MY LINKEDIN URL]",
-  instagram: "[ADD MY INSTAGRAM ID]",
-  phone: "[ADD MY CONTACT NUMBER]",
+  instagram: "ram.bhakth.06",
+  phone: "8310417478",
   github: "[ADD MY GITHUB URL]",
 };
 
