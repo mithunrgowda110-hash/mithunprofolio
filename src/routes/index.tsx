@@ -40,6 +40,7 @@ function Index() {
         <About />
         <Skills />
         <Achievements />
+        <Hackathons />
         <Certificates />
         <Projects />
         <Contact />
